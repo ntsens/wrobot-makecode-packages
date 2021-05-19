@@ -11,5 +11,5 @@
         "README.md",
         "custom.ts"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }

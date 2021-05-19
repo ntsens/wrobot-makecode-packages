@@ -39,9 +39,9 @@ namespace WRobot {
 
     /**
      * TODO: Linear Move
-     * @param x 在此处描述参数, eg: 10.0
-     * @param y 在此处描述参数, eg: 15.0
-     * @param z 在此处描述参数, eg: 5.0
+     * @param x 在此处描述参数, eg: 0.0
+     * @param y 在此处描述参数, eg: 0.0
+     * @param z 在此处描述参数, eg: 0.0
      */
     //% block
     export function moveXYZ(x: number, y: number, z: number): void {
