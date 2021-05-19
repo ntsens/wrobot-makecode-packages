@@ -1,0 +1,12 @@
+basic.forever(function () {
+    WRobot.autoHome()
+    basic.pause(1000)
+    WRobot.moveXYZ(0, 0, 0)
+    basic.pause(5000)
+    WRobot.moveXYZ(50, 50, 60)
+    basic.pause(5000)
+    WRobot.moveXYZ(100, 100, 30)
+    basic.pause(5000)
+    WRobot.moveXYZ(200, 200, 90)
+    basic.pause(5000)
+})
