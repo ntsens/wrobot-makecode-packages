@@ -1,3 +1,8 @@
 {
-    "writingrobot.moveXYZ|block": "末端移动到|X: %x |Y: %y |Z: %z"
+    "writingrobot.moveXYZ|block": "末端移动到|X: %x |Y: %y |Z: %z",
+    "writingrobot.autoHome|block": "复位机械臂",
+    "writingrobot.moveCoordOrigin|block": "末端移动到坐标原点",
+    "writingrobot.setAngleControl|block": "切换到角度控制模式",
+    "writingrobot.setAbsoluteCoordSys|block": "切换到绝对坐标系",
+    "writingrobot.setRelativeCoordSys|block": "切换到相对坐标系"
 }
