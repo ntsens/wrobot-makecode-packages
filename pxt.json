@@ -12,8 +12,6 @@
         "main.ts",
         "README.md",
         "custom.ts"
-		"_locales/zh-cn/writingrobot-strings.json",
-        "_locales/zh-tw/writingrobot-strings.json"
     ],
     "preferredEditor": "ly"
 }
