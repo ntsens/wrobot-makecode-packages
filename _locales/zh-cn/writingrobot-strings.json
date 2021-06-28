@@ -1,5 +1,3 @@
 {
-    "writingrobot.Servo|block": "写字机器人|%index|角度 %degree",
-    "writingrobot.GeekServo|block": "写字机器人|9g舵机|%index|角度 %degree",
-    "writingrobot.GeekServo2KG|block": "写字机器人|2KG舵机|%index|角度 %degree"
+    "writingrobot.moveXYZ|block": "写字机器人|X: %x |Y: %y |Z: %z"
 }
