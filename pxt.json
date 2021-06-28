@@ -1,17 +1,21 @@
 {
-    "name": "机器人控制扩展包",
+    "name": "robotbit",
+    "version": "0.3.6",
+    "description": "Extension for Kittenbot Robotbit",
+    "license": "MIT",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "servo": "*",
-        "robotbit": "github:kittenbot/pxt-robotbit#v0.3.1"
+        "neopixel": "github:kittenbot/pxt-neopixel#v0.6.15"
     },
-    "description": "",
     "files": [
-        "main.blocks",
-        "main.ts",
         "README.md",
-        "custom.ts"
+        "main.ts",
+        "_locales/zh-cn/robotbit-strings.json",
+        "_locales/zh-tw/robotbit-strings.json"
     ],
-    "preferredEditor": "ly"
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "preferredEditor": "tsprj"
 }
