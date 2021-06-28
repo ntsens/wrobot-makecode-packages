@@ -15,7 +15,7 @@ enum MyEnum {
  * 自定义图形块
  */
 //% weight=100 color=#0fbc11 icon=""
-namespace WRobot {
+namespace writingrobot {
 
     serial.onDataReceived(serial.delimiters(Delimiters.NewLine), function () {
         basic.showIcon(IconNames.Asleep)
@@ -66,6 +66,57 @@ namespace WRobot {
         state = 0
         // Serial port send command with carriage return( /n ).
         serial.writeLine("G28")
+        while (state == 0) {
+            basic.pause(1)
+        }
+    }
+
+    /**
+    * TODO: Go to coordinate origin
+    */
+    //% block
+    export function moveCoordinateOrigin(): void {
+        // Add code here
+        moveXYZ(0, 0, 0);
+    }
+
+    /**
+    * TODO: Set angle control mode
+    */
+    //% block
+    export function setAngleControlMode(): void {
+        // Add code here
+        state = 0
+        // Serial port send command with carriage return( /n ).
+        serial.writeLine("G95")
+        while (state == 0) {
+            basic.pause(1)
+        }
+    }
+
+    /**
+    * TODO: Set absolute coordinate system Mode
+    */
+    //% block
+    export function setAbsoluteCoordinateSystemMode(): void {
+        // Add code here
+        state = 0
+        // Serial port send command with carriage return( /n ).
+        serial.writeLine("G90")
+        while (state == 0) {
+            basic.pause(1)
+        }
+    }
+
+    /**
+    * TODO: Set absolute coordinate system Mode
+    */
+    //% block
+    export function setRelativeCoordinateSystemMode(): void {
+        // Add code here
+        state = 0
+        // Serial port send command with carriage return( /n ).
+        serial.writeLine("G91")
         while (state == 0) {
             basic.pause(1)
         }
