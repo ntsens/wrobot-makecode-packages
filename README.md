@@ -1,6 +1,9 @@
-# robotbit
+ 
+ 写字机器人的控制代码
 
-Extension for Kittenbot Robotbit
+# Writing robot microbit
+
+Extension for writing robot
 
 ## Feature
 
@@ -11,20 +14,17 @@ Extension for Kittenbot Robotbit
 - On board buzzer
 - On board 4x RGB Neo Pixels
 
-# Blocks Preview
-![image](https://user-images.githubusercontent.com/3390845/34512193-b3e0ffdc-f09b-11e7-839f-0c9c3563ac94.png)
+通过Micro:bit与机器人通信从而实现写字机器人的运动控制
 
-# Hardware Preview
-## Front
-![image](https://user-images.githubusercontent.com/3390845/34511999-4b3fdef4-f09a-11e7-960e-5661268b0ba7.png)
+moveXYZ(x,y,z) : 机械臂末端移动到坐标(x,y,z)，机器人基座为坐标原点，单位mm。
 
-## Back
-![image](https://user-images.githubusercontent.com/3390845/34512098-04fecc1a-f09b-11e7-9ec6-62fcc0780773.png)
+autoHome () : 机械臂复位。
+
 
 
 ----------
 
-For more infomation please visit [http://kittenbot.cc/bbs/](http://kittenbot.cc/bbs/ "Kittenbot BBS")
+For more infomation please visit [http://www.ntsens.com](http://www.ntsens.com "NTSens")
 
 ## License
 
@@ -35,6 +35,3 @@ MIT
 * for PXT/microbit
 (The metadata above is needed for package search.)
 
-```package
-robotbit=github:Kittenbot/pxt-robotbit
-```
