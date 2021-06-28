@@ -1,9 +1,9 @@
 {
     "target": "microbit",
     "targetVersion": "1.4.11",
-    "name": "robotbit",
+    "name": "writingrobot",
     "meta": {},
-    "editor": "tsprj",
+    "editor": "ly",
     "pubId": "",
     "pubCurrent": false,
     "_rev": null,
@@ -14,7 +14,7 @@
     "blobVersion": null,
     "blobCurrent": false,
     "isDeleted": false,
-    "path": "pxt-robotbit",
+    "path": "pxt-writingrobot",
     "githubCurrent": false,
     "saveId": null
 }

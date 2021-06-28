@@ -1,6 +1,6 @@
 {
-    "writingrobot.Servo|block": "9g舵機|%index|角度 %degree",
-    "writingrobot.GeekServo|block": "Geekservo|9g舵機|%index|角度 %degree",
-    "writingrobot.GeekServo2KG|block": "Geekservo|2KG舵機|%index|角度 %degree"
+    "writingrobot.Servo|block": "writingrobot|%index|角度 %degree",
+    "writingrobot.GeekServo|block": "writingrobot|9g舵機|%index|角度 %degree",
+    "writingrobot.GeekServo2KG|block": "writingrobot|2KG舵機|%index|角度 %degree"
 
 }
