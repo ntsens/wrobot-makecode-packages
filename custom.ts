@@ -75,7 +75,7 @@ namespace writingrobot {
     * TODO: Go to coordinate origin
     */
     //% block
-    export function moveCoordinateOrigin(): void {
+    export function moveCoordOrigin(): void {
         // Add code here
         moveXYZ(0, 0, 0);
     }
@@ -84,7 +84,7 @@ namespace writingrobot {
     * TODO: Set angle control mode
     */
     //% block
-    export function setAngleControlMode(): void {
+    export function setAngleControl(): void {
         // Add code here
         state = 0
         // Serial port send command with carriage return( /n ).
@@ -98,7 +98,7 @@ namespace writingrobot {
     * TODO: Set absolute coordinate system Mode
     */
     //% block
-    export function setAbsoluteCoordinateSystemMode(): void {
+    export function setAbsoluteCoordSys(): void {
         // Add code here
         state = 0
         // Serial port send command with carriage return( /n ).
@@ -112,7 +112,7 @@ namespace writingrobot {
     * TODO: Set absolute coordinate system Mode
     */
     //% block
-    export function setRelativeCoordinateSystemMode(): void {
+    export function setRelativeCoordSys(): void {
         // Add code here
         state = 0
         // Serial port send command with carriage return( /n ).
