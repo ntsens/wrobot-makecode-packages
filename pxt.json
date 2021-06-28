@@ -1,7 +1,7 @@
 {
-    "name": "robotbit",
-    "version": "0.3.6",
-    "description": "Extension for Kittenbot Robotbit",
+    "name": "writingrobot",
+    "version": "0.0.2",
+    "description": "Extension for Writing Robot",
     "license": "MIT",
     "dependencies": {
         "core": "*",
@@ -10,8 +10,8 @@
     "files": [
         "README.md",
         "main.ts",
-        "_locales/zh-cn/robotbit-strings.json",
-        "_locales/zh-tw/robotbit-strings.json"
+        "_locales/zh-cn/writingrobot-strings.json",
+        "_locales/zh-tw/writingrobot-strings.json"
     ],
     "testFiles": [
         "test.ts"
