@@ -4,5 +4,6 @@
     "writingrobot.moveCoordOrigin|block": "末端移动到坐标原点",
     "writingrobot.setAngleControl|block": "切换到角度控制模式",
     "writingrobot.setAbsoluteCoordSys|block": "切换到绝对坐标系",
-    "writingrobot.setRelativeCoordSys|block": "切换到相对坐标系"
+    "writingrobot.setRelativeCoordSys|block": "切换到相对坐标系",
+    "writingrobot.servoRotation|block": "舵机转动|编号: %no |角度: %angle"
 }

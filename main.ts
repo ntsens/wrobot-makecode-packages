@@ -114,4 +114,22 @@ namespace writingrobot {
         }
     }
 
+    /**
+     * TODO: Servo Rotation
+     * @param no 在此处描述参数, eg: P0
+     * @param angle 在此处描述参数, eg: 20
+     */
+    //% block
+    export function servoRotation (no: number, angle: number): void {
+        // Add code here
+        state = 0
+        let no_str = no.toString()
+        let angle_str = angle.toString()
+        // Serial port send command with carriage return( /n ).
+        serial.writeLine("M280 P" + no_str + " S" + angle_str)
+        while (state == 0) {
+            basic.pause(1)
+        }
+    }
+
 }
