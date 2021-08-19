@@ -16,6 +16,20 @@ Extension for writing robot
 
 通过Micro:bit与机器人通信从而实现写字机器人的运动控制
 
+autoHome() : Go to origin on all axes
+
+ unlockMotor() : Unlock the motors
+
+ moveCoordOrigin() : Go to coordinate origin
+
+ setAngleControl() : Set angle control mode
+
+ setAbsoluteCoordSys() : Set absolute coordinate system Mode
+
+ setRelativeCoordSys() : Set relative coordinate system Mode
+
+servoRotation : Servo Rotation
+
 moveXYZ(x,y,z) : 机械臂末端移动到坐标(x,y,z)，机器人基座为坐标原点，单位mm。
 
 autoHome () : 机械臂复位。

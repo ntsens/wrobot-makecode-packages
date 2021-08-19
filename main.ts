@@ -1,5 +1,5 @@
 /*
-Riven
+lycode
 modified from pxt-servo/servodriver.ts
 load dependency
 "robotbit": "file:../pxt-robotbit"
@@ -64,6 +64,20 @@ namespace writingrobot {
     }
 
     /**
+     * TODO: Unlock the motors
+     */
+    //% block
+    export function unlockMotor(): void {
+        // Add code here
+        state = 0
+        // Serial port send command with carriage return( /n ).
+        serial.writeLine("M84")
+        while (state == 0) {
+            basic.pause(1)
+        }
+    }
+
+    /**
     * TODO: Go to coordinate origin
     */
     //% block
@@ -101,7 +115,7 @@ namespace writingrobot {
     }
 
     /**
-    * TODO: Set absolute coordinate system Mode
+    * TODO: Set relative coordinate system Mode
     */
     //% block
     export function setRelativeCoordSys(): void {
