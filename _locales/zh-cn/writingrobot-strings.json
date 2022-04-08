@@ -1,6 +1,6 @@
 {
     "writingrobot.moveXYZ|block": "末端移动到|X: %x |Y: %y |Z: %z",
-    "writingrobot.moveXYZunblock|block": "末端移动到(非阻塞)|X: %x |Y: %y |Z: %z",
+    "writingrobot.moveXYZunblock|block": "末端移动到(非阻塞)|X: %x |Y: %y |Z: %z ",
     "writingrobot.autoHome|block": "复位机械臂",
     "writingrobot.unlockMotor|block": "解除电机自锁",
     "writingrobot.moveCoordOrigin|block": "末端移动到坐标原点",
