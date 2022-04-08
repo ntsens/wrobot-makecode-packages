@@ -43,10 +43,27 @@ namespace writingrobot {
         let y_str = y.toString()
         let z_str = z.toString()
         // Serial port send command with carriage return( /n ).
-        serial.writeLine("G0 X" + x_str + " Y" + y_str + " Z" + z_str + " F3000")
+        serial.writeLine("G0 X" + x_str + " Y" + y_str + " Z" + z_str + " F6000")
         while (state == 0) {
             basic.pause(1)
         }
+    }
+
+    /**
+     * TODO: Linear Move
+     * @param x 在此处描述参数, eg: 0.0
+     * @param y 在此处描述参数, eg: 0.0
+     * @param z 在此处描述参数, eg: 0.0
+     */
+    //% block
+    export function moveXYZunblock(x: number, y: number, z: number): void {
+        // Add code here
+        state = 0
+        let x_str = x.toString()
+        let y_str = y.toString()
+        let z_str = z.toString()
+        // Serial port send command with carriage return( /n ).
+        serial.writeLine("G0 X" + x_str + " Y" + y_str + " Z" + z_str + " F6000")
     }
 
     /**
