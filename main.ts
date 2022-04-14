@@ -43,7 +43,7 @@ namespace writingrobot {
         let y_str = y.toString()
         let z_str = z.toString()
         // Serial port send command with carriage return( /n ).
-        serial.writeLine("G0 X" + x_str + " Y" + y_str + " Z" + z_str + " F6000")
+        serial.writeLine("G1 X" + x_str + " Y" + y_str + " Z" + z_str + " F6000")
         while (state == 0) {
             basic.pause(1)
         }
@@ -63,7 +63,7 @@ namespace writingrobot {
         let y_str = y.toString()
         let z_str = z.toString()
         // Serial port send command with carriage return( /n ).
-        serial.writeLine("G0 X" + x_str + " Y" + y_str + " Z" + z_str + " F6000")
+        serial.writeLine("G1 X" + x_str + " Y" + y_str + " Z" + z_str + " F6000")
     }
 
     /**
